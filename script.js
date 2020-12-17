@@ -22,7 +22,7 @@ $(document).ready(function(){
             method: 'Get',
             url:url+"&t="+movie,
             success:function(data) {
-                console.log(data);
+                console.table(data);
 
                 // Result to be displayed
                 result = `
