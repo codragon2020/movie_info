@@ -15,7 +15,7 @@ $(document).ready(function(){
         var result = ""
 
         // URL of the API data call
-        var url = "http://www.omdbapi.com/?apikey=" + apikey
+        var url = "https://www.omdbapi.com/?apikey=" + apikey
 
         // Get request for the API call
         $.ajax({
