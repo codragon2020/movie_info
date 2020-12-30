@@ -27,12 +27,12 @@ $(document).ready(function(){
                 // Result to be displayed
                 result = `
                 <img style="float:left" class="img-thumnail" width="200" height="200" src="${data.Poster}"/>
-                <h2>${data.Title}</h2>
-                <h2>${data.Released}</h2>
-                <h2>${data.Runtime}</h2>
-                <h2>${data.Genre}</h2>
-                <h2>${data.Director}</h2>
-                <h2>${data.Actors}</h2>
+                <h5>Title: ${data.Title}</h5>
+                <h5>Date Released: ${data.Released}</h5>
+                <h5>Runtime: ${data.Runtime}</h5>
+                <h5>Genre: ${data.Genre}</h5>
+                <h5>Director: ${data.Director}</h5>
+                <h5>Actors: ${data.Actors}</h5>
                 `
                 // Actually displaying the result in html
                 $("#result").html(result);
